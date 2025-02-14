@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+::selection{
+  color: rgb(79, 59, 29);
+}
