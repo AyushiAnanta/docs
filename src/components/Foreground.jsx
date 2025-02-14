@@ -28,7 +28,7 @@ const Foreground = ({ setShowCard, setShowAddCard, cardVal, setCardVal}) => {
     const [docLen, setDocLen] = useState(docdata.length)
 
   return (
-    <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-full flex flex-row flex-wrap bg-[url('src/assets/background.png')] bg-cover bg-center">
+    <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-full flex flex-row flex-wrap bg-[url('/docs/background.png')] bg-cover bg-center">
       {docdata.map(({ name }, index) => (
         <Card
           
